@@ -58,5 +58,15 @@ namespace Assignment2_1_3
             return num1 * num2 * num3;
         }
 
+        //Challenge attempt: Method calls for an array of doubles and finds the summation of all doubles in the array
+        public static double Add(double[] arr)
+        {
+            double ans = 0;
+            foreach (double d in arr)
+            {
+                ans = ans + d;
+            }
+            return ans;
+        }
     }
 }
